@@ -12,12 +12,12 @@ export default function Footer() {
           <SvgIcon kind='github' href={siteMetadata.github} title='Github' target='_blank' />
           <SvgIcon kind='twitter' href={siteMetadata.twitter} title='Twitter' target='_blank' />
         </div>
-        <div className="flex my-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">
+        <div className="flex my-2 space-x-2 text-sm text-gray-600 dark:text-gray-300">
           <div>{`Copyright © ${new Date().getFullYear()}`}</div>
           <span>{` • `}</span>
           <Link href="/">{siteMetadata.footerTitle}</Link>
         </div>
-        <div className="text-sm text-gray-500 dark:text-gray-400">
+        <div className="text-sm text-gray-600 dark:text-gray-300">
           <span className="font-bold">Credit : </span>
           <a
             target="_blank"

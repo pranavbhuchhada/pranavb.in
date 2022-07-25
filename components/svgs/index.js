@@ -9,6 +9,7 @@ import Work from './work.svg'
 import Education from './education.svg'
 import ArrowDown from './arrow-down.svg'
 import Error from './error.svg'
+import Download from './download.svg'
 
 // Icons taken from: https://simpleicons.org/
 
@@ -24,6 +25,7 @@ const components = {
   education: Education,
   'arrow-down': ArrowDown,
   error: Error,
+  download: Download
 }
 
 const SvgIcon = ({ id, kind, title, target, href, height = 8, width = 8, containerClassName }) => {

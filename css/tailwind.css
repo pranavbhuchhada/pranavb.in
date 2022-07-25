@@ -151,3 +151,7 @@ html.lightbox-loading * {
 .pill {
   @apply inline-flex items-center justify-center px-2 py-1 mr-2 text-sm leading-none text-white bg-primary-600 rounded-sm
 }
+
+.mtp-50 {
+  margin-top: 50%
+}

@@ -29,7 +29,7 @@ const buildTimeLineElements = (data) => {
 
     const certs = certifications.map((cert, i) => {
       return (
-        <a key={i} href={cert.url}><Image src={cert.img} height={102} width={102}/></a>
+        <a key={i} href={cert.url}><Image src={cert.img} height={102} width={102} /></a>
       )
     })
 
@@ -39,7 +39,7 @@ const buildTimeLineElements = (data) => {
         date={item.years}
         iconClassName='bg-primary-600'
         dateClassName='text-black dark:text-white opacity-100'
-        icon={<SvgIcon kind={item.icon} />}
+        icon={<SvgIcon kind={item.icon} containerClassName='mtp-50' />}
         textClassName='text-dark dark:text-white bg-dark dark:bg-white'
         key={i} >
         <h3 className='mt-0 text-white dark:text-dark'>
@@ -80,9 +80,10 @@ export default function ResumeLayout() {
             <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Resume
             </h1>
-            <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-              My working experiences and skills
+            <p className="text-lg leading-7 text-gray-600 dark:text-gray-300">
+              My working experiences and skills <SvgIcon target='_blank' href='/static/docs/Pranav Bhuchhada - Resume.pdf' containerClassName="inline-grid" kind='download' />
             </p>
+
           </div>
           <div className="space-y-2 xl:space-y-0">
             <div className="pt-8 pb-8 prose prose-lg max-w-none">

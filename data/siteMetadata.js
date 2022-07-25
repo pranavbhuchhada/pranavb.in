@@ -6,7 +6,7 @@ const siteMetadata = {
   description:
     "Pranav's journey - programming, working and life stories through the keyboard of an open minded Security Researcher.",
   language: 'en-us',
-  siteUrl: 'https://www.pranavb.in',
+  siteUrl: 'https://pranavb.in',
   siteRepo: 'https://github.com/pranavbhuchhada/pranavbhuchhada.github.io',
   siteLogo: '/static/images/logo.jpg',
   image: '/static/images/logo.jpg',

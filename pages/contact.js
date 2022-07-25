@@ -72,13 +72,13 @@ export default class Contact extends React.Component {
   render() {
     return (
       <>
-        <PageSeo title={`Contact - ${siteMetadata.title}`} description={siteMetadata.description} />
+        <PageSeo title={`Contact - ${siteMetadata.author}`} description={siteMetadata.description} />
         <div className="divide-y">
           <div className="pt-6 pb-8 space-y-2 md:space-y-5">
             <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Contact
             </h1>
-            <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+            <p className="text-lg leading-7 text-gray-600 dark:text-gray-300">
               You can use the form to contact me with any queries you have or reach out on social media.
             </p>
           </div>

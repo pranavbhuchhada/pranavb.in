@@ -34,7 +34,7 @@ const ProjectCard = ({ title, description, imgSrc, href, repoName }) => (
             </div>
           )}
         </div>
-        <p className="mb-3 prose text-gray-500 max-w-none dark:text-gray-400">{description}</p>
+        <p className="mb-3 prose text-gray-600 max-w-none dark:text-gray-300">{description}</p>
         {href && (
           <Link
             href={href}

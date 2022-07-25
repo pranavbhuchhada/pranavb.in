@@ -17,7 +17,7 @@ export default function Home() {
             <p className={`mb-8 text-4xl leading-[60px] font-extrabold tracking-tight text-transparent bg-clip-text ${headingColorClass} md:text-6xl md:leading-[86px]`}>
               Hi <i className="twa twa-waving-hand"></i> I&#39;m {siteMetadata.author}
             </p>
-            <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
+            <div className="text-lg leading-8 text-gray-600 dark:text-gray-300">
               <h1 className="text-neutral-900 dark:text-neutral-200">
                 I&#39;m <span className="font-medium">{siteMetadata.author}</span> - an open-minded{' '}
                 <span className="font-medium">Security Researcher</span> in{' '}
