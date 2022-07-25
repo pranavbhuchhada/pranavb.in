@@ -37,14 +37,14 @@ export default function Home() {
                 Currently I&#39;m working as a Security Test Engineer at <a href='https://www.oneadvanced.com/' target="_blank">Advanced</a>.
               </p>
               <div className="flex flex-col space-y-1">
-                <Link href="/projects" className="hover:underline">
+                {/* <Link href="/projects" className="hover:underline">
                   <Twemoji emoji="hammer-and-wrench" />
                   <span className="ml-2">What have I built?</span>
                 </Link>
                 <Link href="/blog" className="hover:underline">
                   <Twemoji emoji="memo" />
                   <span className="ml-2">My writings</span>
-                </Link>
+                </Link> */}
                 <Link href="/about" className="hover:underline">
                   <Twemoji emoji="face-with-monocle" />
                   <span className="ml-2">More about me and myself</span>
