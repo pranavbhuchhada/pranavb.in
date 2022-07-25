@@ -5,7 +5,7 @@ module.exports = {
   mode: 'jit',
   content: [
     './pages/**/*.js',
-    './data/blog/*.mdx',
+    // './data/blog/*.mdx',
     './components/**/*.js',
     './layouts/**/*.js',
     './lib/**/*.js',
