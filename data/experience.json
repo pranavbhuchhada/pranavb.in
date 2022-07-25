@@ -1,0 +1,68 @@
+{
+  "work": [
+    {
+      "company": "Advanced",
+      "title": "Associate Security Test Engineer",
+      "years": "Jul 2022 - Present",
+      "icon": "work",
+      "details": [
+        "Perform authorized penetration tests on the required systems in order to expose weaknesses in their security that could be exploited",
+        "Implementing, testing and operating advanced software security techniques in compliance with technical reference architecture",
+        "Performing on-going security testing and code review to improve software security"
+      ],
+      "technologies": ["Qualys", "VAPT", "Kali Linux", "Burp Suite"]
+    },
+    {
+      "company": "Advanced",
+      "title": "Associate DevOps Engineer",
+      "years": "Jul 2021 - Jun 2022",
+      "icon": "work",
+      "details": [
+        "Working in the field of DevOps and NodeJS development",
+        "Implementing CI/CD pipelines using GitHub Actions, Jenkins and Harness",
+        "Designing and managing cloud infrastructure in AWS Cloud"
+      ],
+      "technologies": ["NodeJS", "AWS", "GitHub Actions", "Harness", "Git", "Docker"],
+      "certifications": [
+        {
+          "url": "https://www.credly.com/badges/fb6ac3e7-8716-4532-b6bb-36414bbd65fe/public_url",
+          "img": "static/images/aws-certified-solutions-architect-associate.png"
+        }
+      ]
+    },
+    {
+      "company": "TechSmith Solutions Pvt. Ltd",
+      "title": "Web Developer Intern",
+      "years": "May 2019 - Jun 2019",
+      "icon": "work",
+      "details": [
+        "Developed Chunk Uploader API to avoid session time out while uploading large files by use of jQuery, AJAX and PHP.",
+        "Developed a auto-suggest feature to help end-users to type speedily by use of jQuery and AJAX",
+        "Developed a PDF Merger API that can merge images and PDF files using PHP"
+      ],
+      "technologies": ["HTML", "CSS", "PHP", "JavaScript", "AJAX", "REST API", "MySQL"]
+    }
+  ],
+  "education": [
+    {
+      "company": "Charotar University of Science and Technology",
+      "title": "B. Tech. in Information Technology",
+      "years": "Aug 2017 - May 2021",
+      "icon": "education",
+      "details": [
+        "Cryptography & Network Security",
+        "Computer Networks",
+        "Data Communication & networking",
+        "Advanced Computing",
+        "Design & Analysis of Algorithms",
+        "Data Structures & Algorithm",
+        "Web Technologies",
+        "Data Science",
+        "Image Processing",
+        "Operating System",
+        "Language Processors",
+        "Object Oriented Programming"
+      ]
+    }
+  ]
+}
