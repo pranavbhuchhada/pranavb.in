@@ -5,6 +5,7 @@ import SvgIcon from '@/components/svgs'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 // import 'react-vertical-timeline-component/style.min.css'
 import experience from '@/data/experience'
+import Image from 'next/image'
 
 const buildTimeLineElements = (data) => {
   return data.map(function (item, i) {
@@ -28,7 +29,7 @@ const buildTimeLineElements = (data) => {
 
     const certs = certifications.map((cert, i) => {
       return (
-        <a key={i} href={cert.url}><img src={cert.img} /></a>
+        <a key={i} href={cert.url}><Image src={cert.img} height={102} width={102}/></a>
       )
     })
 

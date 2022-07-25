@@ -1,5 +1,6 @@
 import { PageSeo } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
+import Image from 'next/image'
 
 export default function AboutLayout({ children }) {
 
@@ -17,7 +18,7 @@ export default function AboutLayout({ children }) {
         </div>
         <div className="items-start space-y-5 xl:grid xl:grid-cols-3 xl:space-y-0 pt-8">
           <div className='avatar'>
-            <img src={siteMetadata.image} alt='avatar' />
+            <Image src={siteMetadata.image} alt='avatar' width={192} height={192} />
           </div>
           <div className="pb-8 xl:pl-8 prose prose-lg dark:prose-dark max-w-none xl:col-span-2">
             {children}

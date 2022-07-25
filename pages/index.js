@@ -15,7 +15,7 @@ export default function Home() {
         <div className="md:my-4 md:pt-6 md:pb-8 space-y-2 md:space-y-5">
           <div className="xl:col-span-2 md:pr-8">
             <p className={`mb-8 text-4xl leading-[60px] font-extrabold tracking-tight text-transparent bg-clip-text ${headingColorClass} md:text-6xl md:leading-[86px]`}>
-              Hi <i className="twa twa-waving-hand"></i> I'm {siteMetadata.author}
+              Hi <i className="twa twa-waving-hand"></i> I&#39;m {siteMetadata.author}
             </p>
             <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
               <h1 className="text-neutral-900 dark:text-neutral-200">
@@ -34,7 +34,7 @@ export default function Home() {
                 <br />
                 I&#39;m a Cybersecurity enthusiast. I love doing research and pen-testing.
                 <br />
-                Currently I&#39;m working as a Security Test Engineer at <a href='https://www.oneadvanced.com/' target="_blank">Advanced</a>.
+                Currently I&#39;m working as a Security Test Engineer at <a href='https://www.oneadvanced.com/' target="_blank" rel="noreferrer">Advanced</a>.
               </p>
               <div className="flex flex-col space-y-1">
                 {/* <Link href="/projects" className="hover:underline">

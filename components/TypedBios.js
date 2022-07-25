@@ -24,9 +24,9 @@ const TypedBios = () => {
       <ul id="bios" className="hidden">
         <li>I make my living performing Vulnerability scan and Penetration testing.</li>
         <li>I work mostly with Node, AWS, Python.</li>
-        <li>I'm a Researcher, Learner and Freedom seeker.</li>
+        <li>I&#39;m a Researcher, Learner and Freedom seeker.</li>
         <li>My first programming language I learned was <b className="font-medium">C</b>.</li>
-        <li>I'm a sport-guy. I love <span className="ml-1"><Twemoji emoji="soccer-ball" />,<Twemoji emoji="ping-pong" /></span>.</li>
+        <li>I&#39;m a sport-guy. I love <span className="ml-1"><Twemoji emoji="soccer-ball" />,<Twemoji emoji="ping-pong" /></span>.</li>
         <li>I love to travel and explore New places.</li>
       </ul>
       <span ref={el} className="text-neutral-900 dark:text-neutral-200" />

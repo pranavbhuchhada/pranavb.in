@@ -26,7 +26,7 @@
       "certifications": [
         {
           "url": "https://www.credly.com/badges/fb6ac3e7-8716-4532-b6bb-36414bbd65fe/public_url",
-          "img": "static/images/aws-certified-solutions-architect-associate.png"
+          "img": "/static/images/aws-certified-solutions-architect-associate.png"
         }
       ]
     },
